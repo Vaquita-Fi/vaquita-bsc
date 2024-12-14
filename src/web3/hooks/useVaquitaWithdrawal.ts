@@ -75,7 +75,6 @@ export const useVaquitaWithdrawal = () => {
   const withdrawalEarnedInterest = useCallback(
     async (
       group: GroupResponseDTO,
-      amount: number,
     ): Promise<{ tx: string; error: any; success: boolean }> => {
       console.log({ group });
       const tx = 'test';
