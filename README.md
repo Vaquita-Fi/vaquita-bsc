@@ -6,13 +6,14 @@ Protocol Vaquinha is a community savings protocol inspired by the traditional An
 
 ## 🌐 Resources
 
-- 🚀 **Demo:** Check out the live demo of the project [here](https://vaquita-psi.vercel.app/)
-- 🎥 **Pitch Deck:** This is the pitch deck for the project, providing a concise overview of its key elements. It helps to understand the problem, solution, business model, and overall impact more clearly. [Watch the Pitch Deck](https://www.loom.com/share/15fc8cf534db4c16beb92dab2e8d7879?sid=e9c3014d-ae1e-44f1-90dc-107cba3aa933)
-- 💻 **Sepolia Base contract:** `0x8522D7762A8C3a71ddf5f52b6DA19849BAB87F1d` — View the [Vaquinta Program](https://sepolia.basescan.org/address/0x8522D7762A8C3a71ddf5f52b6DA19849BAB87F1d).
+- 🚀 **Demo:** Check out the live demo of the project [here](https://vaquita-bsc.vercel.app/)
+- 📂 **Repo:** Explore the project repository on [GitHub](https://github.com/Vaquita-Fi/vaquita-bsc).
+- 🎥 **Pitch Deck:** This is the pitch deck for the project, providing a concise overview of its key elements. It helps to understand the problem, solution, business model, and overall impact more clearly. [Watch the Pitch Deck](https://www.loom.com/share/7eeb25ece45e45e084f13e8f811739fb?sid=8cba32ec-3d0e-4b07-b9e2-6b18b154a9a9)
+- 💻 **Binance Smart Chain Testnet Contract:** `0xAe49A6520205fB223CAB1Fe17B1373ab979946e0` — View the [Vaquita Program](https://testnet.bscscan.com/address/0xAe49A6520205fB223CAB1Fe17B1373ab979946e0).
 
   **Methods:**
 
-  - 🏁 `initializeRound`: Creates a new Round and adds collateral
+  - 🏁 `initializeRound`: Creates a new Round and adds collateral.
   - 🙋‍♂️ `addPlayer`: Adds a player to the round and their collateral.
   - 💰 `payTurn`: Pays the current turn in the round.
 
@@ -54,14 +55,13 @@ bun run dev
 - [OnchainKit documentation](https://onchainkit.xyz)
 - We use the [OnchainKit Early Adopter](https://github.com/neodaoist/onchainkit-early-adopter) contract written by neodaoist [[X]](https://x.com/neodaoist)
 
+## Additional Resources for Binance Smart Chain Testnet
+
+- 💵 **Faucet USDC:** [Access the USDC Faucet](https://testnet.bscscan.com/token/0x4b8eed87b61023f5beccebd2868c058fee6b7ac7?a=0x711ff445c1931a7899238b1626eba589195e1c3c#writeContract)
+- 💰 **Faucet BNB Token:** [Get BNB Testnet Tokens](https://www.bnbchain.org/en/testnet-faucet)
+
 <br />
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Need more help?
-
-If you have any questions or need help, feel free to reach out to us on [Discord](https://discord.gg/8gW3h6w5)
-or open a [Github issue](https://github.com/coinbase/onchainkit/issues) or DMs us
-on X at [@onchainkit](https://x.com/onchainkit), [@zizzamia](https://x.com/zizzamia), [@fkpxls](https://x.com/fkpxls).
