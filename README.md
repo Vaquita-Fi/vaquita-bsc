@@ -6,7 +6,7 @@ Protocol Vaquinha is a community savings protocol inspired by the traditional An
 
 ## 🌐 Resources
 
-- 🚀 **Demo:** Check out the live demo of the project [here](https://vaquita-bsc.vercel.app/)
+- 🚀 **Demo:** Check out the live demo of the project [here](https://vaquita-fi-bsc.vercel.app/)
 - 📂 **Repo:** Explore the project repository on [GitHub](https://github.com/Vaquita-Fi/vaquita-bsc).
 - 🎥 **Pitch Deck:** This is the pitch deck for the project, providing a concise overview of its key elements. It helps to understand the problem, solution, business model, and overall impact more clearly. [Watch the Pitch Deck](https://www.loom.com/share/7eeb25ece45e45e084f13e8f811739fb?sid=8cba32ec-3d0e-4b07-b9e2-6b18b154a9a9)
 - 💻 **Binance Smart Chain Testnet Contract:** `0xAe49A6520205fB223CAB1Fe17B1373ab979946e0` — View the [Vaquita Program](https://testnet.bscscan.com/address/0xAe49A6520205fB223CAB1Fe17B1373ab979946e0).
