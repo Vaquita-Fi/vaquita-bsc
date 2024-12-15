@@ -6,7 +6,7 @@ import { GroupsPage, MainHeader } from '@/vaquita-ui-submodule/components';
 import React from 'react';
 import { useAccount } from 'wagmi';
 
-const GroupPage = () => {
+const Page = () => {
   
   const { address } = useAccount();
   
@@ -25,4 +25,4 @@ const GroupPage = () => {
   );
 };
 
-export default GroupPage;
+export default Page;

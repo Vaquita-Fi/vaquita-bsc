@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import { NEXT_PUBLIC_URL } from '../config';
 import './global.css';
+import './commons.css';
 import '@coinbase/onchainkit/styles.css';
 import { ReactQueryProvider } from './react-query-provider';
 import '@rainbow-me/rainbowkit/styles.css';
@@ -28,11 +29,6 @@ export const metadata: Metadata = {
     images: [ `${NEXT_PUBLIC_URL}/vibes/vibes-19.png` ],
   },
 };
-const links: { label: string; path: string }[] = [
-  { label: 'Join Group', path: '/groups' },
-  { label: 'My Groups', path: '/my-groups' },
-  { label: 'Profile', path: '/profile' },
-];
 
 export default function RootLayout({
                                      children,
@@ -44,9 +40,7 @@ export default function RootLayout({
     <body className="flex items-center justify-center">
     <NextUIProvider className="h-full w-full">
       <ReactQueryProvider>
-        {/*<UiLayout links={links}>*/}
         <OnchainProviders>{children}</OnchainProviders>
-        {/*</UiLayout>*/}
       </ReactQueryProvider>
     </NextUIProvider>
     </body>
